@@ -1,0 +1,29 @@
+{
+  "name": "odin-testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lj140542/odin-testing-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lj140542/odin-testing-practice/issues"
+  },
+  "homepage": "https://github.com/lj140542/odin-testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1"
+  }
+}
